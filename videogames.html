@@ -1,1 +1,150 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Derrick Banks website</title>
+    <style>
+      .indent {
+        text-indent: 45px;
+      }
+        .title {
+        text-align: center;
+      }
+      a:hover {
+        background-color: white;
+      }
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
 
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      nav {
+        display: block;
+        text-align: center;
+        background-color: #000000;
+      }
+      #dj {
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: red;
+        padding: 15px;
+      }
+    </style>
+    <body>
+      <div id="dj">
+        <header>
+           <h1 class="title">My experince with videogames</h1>
+          <nav>
+            <ul>
+              <li>
+                <a href="https://db-webs1.glitch.me/" class="travel"
+                  >My First Game</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://db-webs2-.glitch.me/videogames.html"
+                  class="travel"
+                  >Consoles!</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://db-website-3.glitch.me/videogames.html"
+                  class="travel"
+                  >Videogame Genres!</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://db-webs4.glitch.me/videogames.html"
+                  class="travel"
+                  >My Top Three</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://db-web5.glitch.me/videogames.html"
+                  class="travel"
+                  >Now You!</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="indent">
+        <p> <strong>
+          Now its is your turn tell me you're favorite, first, and the last game you played below.
+       </strong> </p>  </div>
+        <div class="container">
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First game</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Your game.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last game</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last game.."
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">favorite game</label>
+              </div>
+              <div class="col-75">
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  style="height:200px"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>
